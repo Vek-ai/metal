@@ -20,4 +20,4 @@ jobs:
 
     - name: Copy files via SCP
       run: |
-        scp -r -o StrictHostKeyChecking=no ./* benguetf@benguetfresh.com:/home/benguetf/metal.ilearnwebtech.com/
+        scp -r -P 21 -o StrictHostKeyChecking=no ./* benguetf@benguetfresh.com:/home/benguetf/metal.ilearnwebtech.com/
